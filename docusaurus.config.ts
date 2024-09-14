@@ -46,13 +46,13 @@ const config: Config = {
     image: 'img/docusaurus-social-card.jpg',
     announcementBar: {
       id: "prerelease",
-      content: 'The Wiki is currently in development, some pages may be incomplete or missing.',
-      backgroundColor: "#df4b30",
+      content: 'Ce site et en developpement.',
+      backgroundColor: "#af4b30",
       textColor: "#ffffff",
       isCloseable: true,
     },
     navbar: {
-      title: 'Paladium Bedrock',
+      title: 'Les expos',
       logo: {
         alt: 'Paladium Logo',
         src: 'img/logo.svg',
