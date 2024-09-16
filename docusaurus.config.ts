@@ -62,7 +62,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'wikiSidebar',
           position: 'left',
-          label: 'Wiki',
+          label: 'les infos',
         },
       ],
     },
