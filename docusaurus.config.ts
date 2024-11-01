@@ -24,6 +24,10 @@ const config: Config = {
           sidebarPath: require.resolve('./sidebars'),
           editUrl: 'https://github.com/Dadadou972/wiki-ngbe/edit/main/website/',
         },
+        blog: {
+          showReadingTime: true, // Optional: displays reading time on blog posts
+          editUrl: 'https://github.com/Dadadou972/wiki-ngbe/edit/main/website/blog/', // Optional: URL to edit blog posts
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -40,8 +44,13 @@ const config: Config = {
           label: 'Wiki',
         },
         {
+          to: 'blog', // Updated to link to the blog
+          label: 'Blog',
+          position: 'left', // You can adjust the position as needed
+        },
+        {
           href: 'https://discord.gg/S59PsPvV9v',
-          label: 'discord salvador',
+          label: 'Discord Salvador',
           position: 'right',
         },
       ],
@@ -49,9 +58,8 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
-        // Insérez vos liens de footer ici
         {
-          title: 'Nos résaux',
+          title: 'Nos réseaux',
           items: [
             {
               label: 'Discord Salvador',
@@ -97,7 +105,7 @@ const config: Config = {
           items: [],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Wiki salvador.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Wiki Salvador.`,
     },
     prism: {
       theme: prismThemes.github,
@@ -105,6 +113,5 @@ const config: Config = {
     },
   },
 };
-
 
 export default config;
