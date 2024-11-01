@@ -32,7 +32,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={siteConfig.title}
-      description="Bienvenue sur le wiki communautaire de Paladium Bedrock.">
+      description="Bienvenue sur le wiki communautaire de Nationsglory Bedrock.">
       <HomePageHeader />
     </Layout>
   );
