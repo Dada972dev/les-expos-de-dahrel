@@ -45,7 +45,7 @@ const config: Config = {
         },
         {
           to: 'blog', // Updated to link to the blog
-          label: 'Blog',
+          label: 'News',
           position: 'left', // You can adjust the position as needed
         },
         {
@@ -102,7 +102,14 @@ const config: Config = {
         },
         {
           title: 'Nos partenaires',
-          items: [],
+          items: [
+              {
+            label: 'Mystock',
+            href: 'https://discord.gg/MqdHpAzBCg',
+          },
+          ,
+
+          ],
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Wiki Salvador.`,
