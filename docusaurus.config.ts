@@ -5,11 +5,11 @@ import sidebars from './sidebars'; // Assurez-vous que ce chemin est correct
 const config: Config = {
   title: 'Nationsglory Bedrock wiki salvador',
   tagline: 'Bienvenue',
-  favicon: 'img/ng.ico',
-  url: 'https://www.wikisalvador.fr',
+  favicon: 'img/favicon.ico',
+  url: 'https://wiki-nationsglory-salvador.vercel.app/',
   baseUrl: '/',
-  organizationName: 'Dahrel',
-  projectName: 'newsrb',
+  organizationName: 'Dada972Dev',
+  projectName: 'wikisalvador',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
@@ -40,7 +40,7 @@ const config: Config = {
           label: 'Wiki',
         },
         {
-          href: 'https://discord.gg/aFB3QW3Hfx',
+          href: 'https://discord.gg/S59PsPvV9v',
           label: 'discord salvador',
           position: 'right',
         },
@@ -55,15 +55,11 @@ const config: Config = {
           items: [
             {
               label: 'Discord Salvador',
-              href: 'https://discord.gg/aFB3QW3Hfx',
-            },
-            {
-              label: 'Youtube salvador',
-              href: 'https://discord.gg/aFB3QW3Hfx',
+              href: 'https://discord.gg/S59PsPvV9v',
             },
             {
               label: 'Twitch Dada972',
-              href: 'https://discord.gg/aFB3QW3Hfx',
+              href: 'https://www.twitch.tv/dada97ii',
             },
           ],
         },
@@ -71,23 +67,23 @@ const config: Config = {
           title: 'Discord serveurs Nationsglory bedrock',
           items: [
             {
-              label: 'Nationsglory officiel',
+              label: 'Nationsglory Officiel',
               href: 'https://discord.gg/nationsglory',
             },
             {
-              label: 'Nationsglory alpha',
+              label: 'Nationsglory Alpha',
               href: 'https://discord.gg/aFMuuNMkaA',
             },
             {
-              label: 'Nationsglory oméga',
+              label: 'Nationsglory Oméga',
               href: 'https://discord.gg/Ykk6KyFrnh',
             },
             {
-              label: 'Nationsglory sigma',
+              label: 'Nationsglory Sigma',
               href: 'https://discord.gg/5KDfg7PTup',
             },
             {
-              label: 'Nationsglory delta',
+              label: 'Nationsglory Delta',
               href: 'https://discord.gg/nationsglory-delta-948880111753625642',
             },
             {
