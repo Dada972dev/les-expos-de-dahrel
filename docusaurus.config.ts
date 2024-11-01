@@ -1,76 +1,114 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
+import { Config } from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import sidebars from './sidebars'; // Assurez-vous que ce chemin est correct
 
 const config: Config = {
-  title: 'Les expos de dahrel',
-  tagline: 'Bienvenue!',
-  favicon: 'img/favicon.ico',
-
-  // Set the production url of your site here
-  url: 'https://github.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  title: 'Nationsglory Bedrock wiki salvador',
+  tagline: 'Bienvenue',
+  favicon: 'img/ng.ico',
+  url: 'https://www.wikisalvador.fr',
   baseUrl: '/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Dada972dev', // Usually your GitHub org/user name.
-  projectName: 'les-expos-de-dahrel', // Usually your repo name.
-
-  onBrokenLinks: 'ignore',
-  onBrokenMarkdownLinks: 'ignore',
-
+  organizationName: 'Dahrel',
+  projectName: 'newsrb',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
   i18n: {
-    defaultLocale: 'fr',
-    locales: ['fr'],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
-
   presets: [
     [
-      'classic',
+      '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: './sidebars.ts',
-          editUrl:
-            'https://github.com/Paladium-Developpement/PaladiumBedrock.Wiki/tree/main/',
+          sidebarPath: require.resolve('./sidebars'),
+          editUrl: 'https://github.com/Dadadou972/wiki-ngbe/edit/main/website/',
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: require.resolve('./src/css/custom.css'),
         },
-      } satisfies Preset.Options,
+      },
     ],
   ],
-
   themeConfig: {
-    image: 'img/docusaurus-social-card.jpg',
-    announcementBar: {
-      id: "prerelease",
-      content: 'Ce site et en developpement.',
-      backgroundColor: "#af4b30",
-      textColor: "#ffffff",
-      isCloseable: true,
-    },
     navbar: {
-      title: 'Les expos',
-      logo: {
-        alt: 'Paladium Logo',
-        src: 'img/logo.svg',
-      },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'wikiSidebar',
+          sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Wiki',
         },
+        {
+          href: 'https://discord.gg/aFB3QW3Hfx',
+          label: 'discord salvador',
+          position: 'right',
+        },
       ],
+    },
+    footer: {
+      style: 'dark',
+      links: [
+        // Insérez vos liens de footer ici
+        {
+          title: 'Nos résaux',
+          items: [
+            {
+              label: 'Discord Salvador',
+              href: 'https://discord.gg/aFB3QW3Hfx',
+            },
+            {
+              label: 'Youtube salvador',
+              href: 'https://discord.gg/aFB3QW3Hfx',
+            },
+            {
+              label: 'Twitch Dada972',
+              href: 'https://discord.gg/aFB3QW3Hfx',
+            },
+          ],
+        },
+        {
+          title: 'Discord serveurs Nationsglory bedrock',
+          items: [
+            {
+              label: 'Nationsglory officiel',
+              href: 'https://discord.gg/nationsglory',
+            },
+            {
+              label: 'Nationsglory alpha',
+              href: 'https://discord.gg/aFMuuNMkaA',
+            },
+            {
+              label: 'Nationsglory oméga',
+              href: 'https://discord.gg/Ykk6KyFrnh',
+            },
+            {
+              label: 'Nationsglory sigma',
+              href: 'https://discord.gg/5KDfg7PTup',
+            },
+            {
+              label: 'Nationsglory delta',
+              href: 'https://discord.gg/nationsglory-delta-948880111753625642',
+            },
+            {
+              label: 'Nationsglory Epsilon',
+              href: 'https://discord.gg/CtBGAW8Rtd',
+            },
+          ],
+        },
+        {
+          title: 'Nos partenaires',
+          items: [],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} Wiki salvador.`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
-  } satisfies Preset.ThemeConfig,
+  },
 };
+
 
 export default config;
