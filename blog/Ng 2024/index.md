@@ -27,18 +27,21 @@ Il s'agît de l'arme la plus puissante du jeu, équivalente aux marteaux de glac
 
 En plus de ces dégats, le marteau inflige des effets lorsqu'un autre joueur est touché:
 
-Slowness I (5sec)
-Weakness I (30sec)
-Durability Breaker I
+- Slowness I (5sec)
+- Weakness I (30sec)
+- Durability Breaker I
+
 Le marteau dispose d'une attaque spéciale, il est possible de charger ce coup en faisant clique-droit 5 fois puis en donnant un coup au sol dans les 5 secondes, cela génère alors une explosion maudite, qui inflige, en zone, un nouvel effet "Paranoïa" aux joueurs touchés.
 
 L'effet "Paranoïa" impacte le joueur avec les effets suivants:
 
-Application de multiples knockback aléatoires
-Vue du joueur modifiée, les couleurs tirent au rouge
-Emission de différents sons aléatoires
-Effet de nausée
-Important: Le contenu des Lootboxs est aléatoire ce qui signifie que son contenu est incertain et que seul le hasard dicte le résultat, nous n'assurons aucun loot minimum !
+- Application de multiples knockback aléatoires
+- Vue du joueur modifiée, les couleurs tirent au rouge
+- Emission de différents sons aléatoires
+- Effet de nausée
+ 
+::Tips
+Important: Le contenu des Lootboxs est aléatoire ce qui signifie que son contenu est incertain et que seul le hasard dicte le résultat, nous n'assurons aucun loot minimum ! ::
 
 
 
