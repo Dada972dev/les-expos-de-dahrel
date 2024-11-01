@@ -1,9 +1,9 @@
 import { Config } from '@docusaurus/types';
 import { themes as prismThemes } from 'prism-react-renderer';
-import sidebars from './sidebars'; // Assurez-vous que ce chemin est correct
+import sidebars from './sidebars'; // Make sure this path is correct
 
 const config: Config = {
-  title: 'Nationsglory Bedrock wiki salvador',
+  title: 'Nationsglory Bedrock Wiki Salvador',
   tagline: 'Bienvenue',
   favicon: 'img/favicon.ico',
   url: 'https://wiki-nationsglory-salvador.vercel.app/',
@@ -25,8 +25,8 @@ const config: Config = {
           editUrl: 'https://github.com/Dadadou972/wiki-ngbe/edit/main/website/',
         },
         blog: {
-          showReadingTime: true, // Optional: displays reading time on blog posts
-          editUrl: 'https://github.com/Dadadou972/wiki-ngbe/edit/main/website/blog/', // Optional: URL to edit blog posts
+          showReadingTime: true,
+          editUrl: 'https://github.com/Dadadou972/wiki-ngbe/edit/main/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -44,9 +44,9 @@ const config: Config = {
           label: 'Wiki',
         },
         {
-          to: 'blog', // Updated to link to the blog
+          to: 'blog',
           label: 'News',
-          position: 'left', // You can adjust the position as needed
+          position: 'left',
         },
         {
           href: 'https://discord.gg/S59PsPvV9v',
@@ -103,12 +103,10 @@ const config: Config = {
         {
           title: 'Nos partenaires',
           items: [
-              {
-            label: 'Mystock',
-            href: 'https://discord.gg/MqdHpAzBCg',
-          },
-          ,
-
+            {
+              label: 'Mystock',
+              href: 'https://discord.gg/MqdHpAzBCg',
+            },
           ],
         },
       ],
