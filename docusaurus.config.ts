@@ -37,7 +37,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Wiki',
+          label: 'les infos',
         },
         {
           href: 'https://discord.gg/aFB3QW3Hfx',
